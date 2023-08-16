@@ -27,6 +27,18 @@ export default function InviteRow({ invite }) {
     setCopied(true);
   };
 
+  // const copyInviteLink = () => {
+  //   if (!invite) return false;
+  //   const text = `${window.location.origin}/accept-invite/${invite.code}`;
+  //   const textarea = document.createElement('textarea');
+  //   textarea.value = text;
+  //   document.body.appendChild(textarea);
+  //   textarea.select();
+  //   document.execCommand('copy');
+  //   document.body.removeChild(textarea);
+  //   setCopied(true);
+  // };
+
   useEffect(() => {
     function resetStatus() {
       if (!copied) return false;
