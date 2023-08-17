@@ -12,7 +12,7 @@ import NewUserModal, { NewUserModalId } from "./NewUserModal";
 
 export default function AdminUsers() {
   return (
-    <div className="w-screen h-screen overflow-hidden bg-orange-100 dark:bg-stone-700 flex">
+    <div className="w-screen h-screen overflow-hidden bg-stone-100 dark:bg-stone-700 flex">
       {!isMobile && <Sidebar />}
       <div
         style={{ height: isMobile ? "100%" : "calc(100% - 32px)" }}

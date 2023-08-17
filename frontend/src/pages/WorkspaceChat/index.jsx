@@ -16,7 +16,7 @@ export default function WorkspaceChat() {
     return (
       <>
         {requiresAuth && <PasswordModal mode={mode} />}
-        <div className="w-screen h-screen overflow-hidden bg-orange-100 dark:bg-stone-700 flex">
+        <div className="w-screen h-screen overflow-hidden bg-stone-100 dark:bg-stone-700 flex">
           {!isMobile && <SidebarPlaceholder />}
           <ChatPlaceholder />
         </div>
@@ -43,7 +43,7 @@ function ShowWorkspaceChat() {
   }, []);
 
   return (
-    <div className="w-screen h-screen overflow-hidden bg-orange-100 dark:bg-stone-700 flex">
+    <div className="w-screen h-screen overflow-hidden bg-stone-100 dark:bg-stone-700 flex">
       {!isMobile && <Sidebar />}
       <WorkspaceChatContainer loading={loading} workspace={workspace} />
     </div>

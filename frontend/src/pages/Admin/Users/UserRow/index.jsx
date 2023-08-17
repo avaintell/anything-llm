@@ -51,7 +51,7 @@ export default function UserRow({ currUser, user }) {
             <>
               <button
                 onClick={handleSuspend}
-                className="font-medium text-orange-600 dark:text-orange-300 px-2 py-1 rounded-lg hover:bg-orange-50 hover:dark:bg-orange-800 hover:dark:bg-opacity-20"
+                className="font-medium text-stone-600 dark:text-stone-300 px-2 py-1 rounded-lg hover:bg-stone-50 hover:dark:bg-stone-800 hover:dark:bg-opacity-20"
               >
                 {suspended ? "Unsuspend" : "Suspend"}
               </button>

@@ -151,7 +151,7 @@ export default function DocumentSettings({ workspace }) {
       <div className="p-6 flex h-full w-full max-h-[80vh] overflow-y-scroll">
         <div className="flex flex-col gap-y-1 w-full">
           {!hasFiles && (
-            <div className="mb-4 w-full gap-x-2 rounded-lg h-10 border bg-orange-200 border-orange-800 dark:bg-orange-300 text-orange-800 flex  items-center justify-center">
+            <div className="mb-4 w-full gap-x-2 rounded-lg h-10 border bg-stone-200 border-stone-800 dark:bg-stone-300 text-stone-800 flex  items-center justify-center">
               <AlertTriangle className="h-6 w-6" />
               <p className="text-sm">
                 You don't have any files uploaded. Upload a file via the "Upload

@@ -48,8 +48,8 @@ export default function LLMSelection({
         </div>
 
         {!!error && (
-          <div className="mb-8 bg-red-700 dark:bg-orange-800 bg-opacity-30 border border-red-800 dark:border-orange-600 p-4 rounded-lg w-[90%] flex mx-auto">
-            <p className="text-red-800 dark:text-orange-300 text-sm">{error}</p>
+          <div className="mb-8 bg-red-700 dark:bg-stone-800 bg-opacity-30 border border-red-800 dark:border-stone-600 p-4 rounded-lg w-[90%] flex mx-auto">
+            <p className="text-red-800 dark:text-stone-300 text-sm">{error}</p>
           </div>
         )}
 

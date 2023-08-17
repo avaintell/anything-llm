@@ -69,7 +69,7 @@ export default function Appearance() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-orange-100 dark:bg-black-900">
+    <div className="min-h-screen flex items-center justify-center bg-stone-100 dark:bg-black-900">
       <div className="p-6 w-full max-w-xl bg-white dark:bg-stone-600 rounded-xl shadow-md space-y-4">
         <h2 className="text-2xl font-bold text-center text-black dark:text-white">
           Customize Appearance

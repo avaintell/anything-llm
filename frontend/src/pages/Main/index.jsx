@@ -14,7 +14,7 @@ export default function Main() {
     return (
       <>
         {requiresAuth && <PasswordModal mode={mode} />}
-        <div className="w-screen h-screen overflow-hidden bg-orange-100 dark:bg-stone-700 flex">
+        <div className="w-screen h-screen overflow-hidden bg-stone-100 dark:bg-stone-700 flex">
           {!isMobile && <SidebarPlaceholder />}
           <ChatPlaceholder />
         </div>
@@ -23,7 +23,7 @@ export default function Main() {
   }
 
   return (
-    <div className="w-screen h-screen overflow-hidden bg-orange-100 dark:bg-stone-700 flex">
+    <div className="w-screen h-screen overflow-hidden bg-stone-100 dark:bg-stone-700 flex">
       {!isMobile && <Sidebar />}
       <DefaultChatContainer />
     </div>
