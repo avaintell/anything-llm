@@ -43,7 +43,7 @@ export default function LLMSelection({
           <p className="text-gray-800 dark:text-stone-200 text-base ">
             These are the credentials and settings for your preferred LLM chat &
             embedding provider. Its important these keys are current and correct
-            or else AnythingLLM will not function properly.
+            or else AVA Knowledge Chat will not function properly.
           </p>
         </div>
 
@@ -216,7 +216,7 @@ export default function LLMSelection({
                 <div className="w-full h-40 items-center justify-center flex">
                   <p className="text-gray-800 dark:text-slate-400">
                     This provider is unavailable and cannot be used in
-                    AnythingLLM currently.
+                    AVA Knowledge Chat currently.
                   </p>
                 </div>
               )}

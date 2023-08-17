@@ -5,22 +5,22 @@ export default {
     return "/";
   },
   github: () => {
-    return "https://github.com/Mintplex-Labs/anything-llm";
+    return "https://github.com/avaintell";
   },
   discord: () => {
-    return "https://discord.com/invite/6UyHPeGZAC";
+    return "https://discord.com/";
   },
   docs: () => {
-    return "https://docs.useanything.com";
+    return "https://avaintell.com";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplexlabs.com";
+    return "mailto:info@avaintell.com";
   },
   hosting: () => {
-    return "https://my.mintplexlabs.com/aio-checkout?product=anythingllm";
+    return "https://avaintell.com";
   },
   feedback: () => {
-    return "https://mintplexlabs.typeform.com/to/i0KE3aEW";
+    return "https://avaintell.com";
   },
   appearance: () => {
     return "/system/appearance";
